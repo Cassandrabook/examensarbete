@@ -1,0 +1,546 @@
+/*
+Theme name: Tema inlämmningsuppgift
+Description: Bygga ett tema utifrån befintlig html-mall
+Version: 1.0
+License: Ingen licens
+
+*/
+
+* {
+  outline: none;
+}
+
+body {
+  background-color: #eee;
+  margin: 0;
+  padding: 0;
+  font-family: "FontAwesome", sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+}
+
+main {
+  padding: 40px 0;
+}
+
+h1 {
+  margin: 0;
+  margin-bottom: 30px;
+  font-size: 36px;
+  font-weight: 500;
+}
+
+h2 {
+  font-weight: lighter;
+}
+
+h4 {
+  font-size: 18px;
+  margin: 0;
+  margin-bottom: 10px;
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+p {
+  margin: 0 0 10px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+label {
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.header {
+  background-color: crimson;
+  width: 100%;
+}
+
+.header-search input[type="text"],
+input[type="email"] {
+  min-width: 200px;
+}
+
+.header-search form input[type="submit"] {
+  background-color: #333;
+  color: white;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.header-search form label {
+  display: none;
+}
+
+.header-search form input {
+  border: none;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 10px;
+}
+
+.title-search-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  width: 1170px;
+  height: 70px;
+}
+
+.blog-name {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  line-height: 70px;
+  font-weight: 500;
+}
+
+.menu-content {
+  background-color: #333;
+  height: 40px;
+}
+
+.menu-nav-container {
+  display: flex;
+  justify-content: center;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+  height: 40px;
+  width: 1170px;
+  margin: 0;
+  padding: 0;
+  padding-left: 30px;
+}
+
+.menu-item {
+  color: white;
+  height: 40px;
+  max-width: 100px;
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.menu-content .menu .current-menu-item {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* -------------------------------------------------------------------------- */
+
+/* -------- home -------------- */
+.home {
+  width: 1170px;
+  margin: auto;
+}
+
+.home-container {
+  text-align: center;
+}
+
+.home-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.home-content {
+  position: absolute;
+  color: white;
+  text-shadow: 0 0 4px rgba(0, 0, 0, 0.7);
+  width: 65%;
+}
+
+.home-content h1 {
+  font-size: 50px;
+}
+
+.home-content h2 {
+  font-size: 22px;
+}
+
+.home .attachment-post-thumbnail {
+  width: 100%;
+  vertical-align: middle;
+  height: 400px;
+}
+
+/* ---------------- Undersida ------------------ */
+
+.underpage {
+  padding: 40px 0;
+}
+
+.underpage-container {
+  width: 1170px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.underpage-content {
+  width: 75%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.underpage-menu {
+  width: 25%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.side-menu {
+  margin: 0;
+  padding: 0;
+}
+
+.side-menu > li {
+  border-bottom: solid 1px #ccc;
+  list-style: none;
+  padding: 10px 0;
+}
+
+.side-menu a {
+  color: crimson;
+}
+
+.underpage-4-content,
+.underpage-4-image {
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 50%;
+}
+
+/* ------------- Footer ---------------- */
+
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 30px 0;
+}
+
+.footer-container {
+  width: 1170px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.footer-container a {
+  color: crimson;
+}
+
+.footer-container li {
+  list-style: none;
+  margin-bottom: 5px;
+}
+
+.footer-container i {
+  margin-right: 5px;
+  width: 20px;
+  text-align: center;
+}
+
+.footer-container ul {
+  padding: 0;
+}
+
+.footer-about,
+.footer-contact,
+.footer-social {
+  width: 33.3%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.footer-contact,
+.footer-social {
+  margin-left: 8.3%;
+}
+
+.footer-bottom {
+  color: #777;
+  font-size: 12px;
+  text-align: center;
+}
+
+.bottom-content {
+  width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.bottom-content p {
+  border-top: solid 1px #222;
+  margin-bottom: 0;
+  padding-top: 20px;
+}
+
+/* --------------- BLOGG ---------------- */
+
+.post {
+  width: 75%;
+}
+
+.sidebar {
+  width: 25%;
+}
+
+.post,
+.sidebar {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.blog-container {
+  width: 1170px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.post-container {
+  background-color: white;
+  border: solid 1px #ccc;
+  border-top: solid 2px #333;
+  padding: 30px;
+  margin-bottom: 40px;
+}
+
+.post-image img {
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+  margin-bottom: 30px;
+  height: auto;
+  width: 100%;
+}
+
+.post-title a {
+  font-size: 30px;
+  color: crimson;
+}
+
+.post-title,
+.post-info,
+.post-content {
+  margin: 0 0 10px;
+}
+
+.post-title a:hover,
+.post-category a:hover,
+.post-author a:hover,
+.sidebar-container a:hover,
+.side-menu a:hover {
+  text-decoration: underline;
+  color: darkred;
+}
+
+.post-info {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+  padding: 0;
+}
+
+.post-info i {
+  margin-right: 5px;
+  font-size: 12px;
+}
+
+.post-category a,
+.post-author a {
+  color: crimson;
+}
+
+.sidebar-container {
+  background-color: #333;
+  border: solid 1px black;
+  border-top: solid 2px crimson;
+  color: white;
+}
+
+.sidebar-container ul:first-child {
+  border-bottom: solid 1px black;
+  margin: 0;
+  padding: 30px 30px 0;
+}
+
+.sidebar-container ul:nth-child(2) {
+  margin: 0;
+  padding: 30px 30px 0;
+}
+
+.sidebar-container ul:nth-child(2) h2 {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+#sidebar > ul > li {
+  margin-bottom: 30px;
+}
+
+.sidebar-container ul:nth-child(2) ul {
+  padding: 0;
+}
+
+.sidebar-container ul:first-child li {
+  margin-bottom: 30px;
+}
+
+.sidebar-container li {
+  list-style: none;
+}
+
+.sidebar-container label {
+  font-size: 20px;
+  font-weight: normal;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.sidebar-container input {
+  border: none;
+  height: 30px;
+  line-height: 30px;
+}
+
+.sidebar-container input[type="text"] {
+  color: black;
+  padding: 0 5px;
+  width: 210px;
+}
+
+.sidebar-container input[type="submit"] {
+  background-color: crimson;
+  margin-top: 10px;
+  cursor: pointer;
+  color: white;
+  width: 220px;
+}
+
+.sidebar-container a {
+  color: crimson;
+}
+
+.sidebar-container ul:nth-child(3) {
+  display: none;
+}
+
+.screen-reader-text {
+  display: none;
+}
+
+.pagination .page-numbers.current {
+  background-color: white;
+  color: crimson;
+}
+
+.pagination .page-numbers {
+  background-color: crimson;
+  color: white;
+  display: inline-block;
+  margin: 0 5px;
+  padding: 5px 10px;
+}
+
+.pagination {
+  margin: 30px 0 0;
+  text-align: center;
+  width: 100%;
+}
+
+/* ------------- SEARCH -------------- */
+.search-container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.search-post {
+  width: 65%;
+  margin: 0 auto;
+}
+
+.searchform-wrap {
+  margin-bottom: 30px;
+}
+
+.searchform-wrap label {
+  margin-right: 10px;
+}
+
+.searchform-wrap input[type="text"] {
+  border-color: #333;
+  margin-right: 10px;
+}
+
+.searchform-wrap input {
+  border-style: solid;
+  border-width: 1px;
+  padding: 0 5px;
+}
+
+input[type="text"],
+input[type="email"] {
+  min-width: 200px;
+  height: 30px;
+}
+
+.searchform-wrap input[type="submit"] {
+  background-color: crimson;
+  border-color: crimson;
+  color: white;
+  min-width: 50px;
+  height: 32px;
+}
+
+/* --------------- KONTAKT ------------------ */
+
+.contact-container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.contact-content {
+  margin-left: 16%;
+}
+
+.contact-content input,
+textarea {
+  width: 200px;
+  height: 20px;
+}
+
+.contact-content textarea {
+  height: 40px;
+}
+
+.contact-content .wpcf7-submit {
+  width: auto;
+  cursor: pointer;
+}
