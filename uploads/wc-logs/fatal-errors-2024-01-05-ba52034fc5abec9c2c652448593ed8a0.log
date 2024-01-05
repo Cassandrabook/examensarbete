@@ -1,0 +1,221 @@
+2024-01-05T13:48:02+00:00 CRITICAL syntax error, unexpected token "require_once", expecting "function" or "const" i /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/ecommerce-mega-store/rest-api.php på rad 5
+
+2024-01-05T13:51:50+00:00 CRITICAL Uncaught Error: Call to a member function prepare() on null in /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/ecommerce-mega-store/rest-api.php:20
+Stack trace:
+#0 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/rest-api/class-wp-rest-server.php(1193): Rest_routes->get_products(Object(WP_REST_Request))
+#1 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/rest-api/class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/ecommerce-mega...', Array, NULL)
+#2 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/rest-api/class-wp-rest-server.php(431): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/rest-api.php(424): WP_REST_Server->serve_request('/ecommerce-mega...')
+#4 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp.php(813): WP->parse_request('')
+#9 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/functions.php(1336): WP->main('')
+#10 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-blog-header.php(16): wp()
+#11 /Applications/MAMP/htdocs/examensarbete/wordpress/index.php(17): require('/Applications/M...')
+#12 {main}
+  thrown i /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/ecommerce-mega-store/rest-api.php på rad 20
+
+2024-01-05T13:52:00+00:00 CRITICAL Uncaught Error: Call to a member function prepare() on null in /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/ecommerce-mega-store/rest-api.php:20
+Stack trace:
+#0 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/rest-api/class-wp-rest-server.php(1193): Rest_routes->get_products(Object(WP_REST_Request))
+#1 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/rest-api/class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/ecommerce-mega...', Array, NULL)
+#2 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/rest-api/class-wp-rest-server.php(431): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/rest-api.php(424): WP_REST_Server->serve_request('/ecommerce-mega...')
+#4 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp.php(813): WP->parse_request('')
+#9 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/functions.php(1336): WP->main('')
+#10 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-blog-header.php(16): wp()
+#11 /Applications/MAMP/htdocs/examensarbete/wordpress/index.php(17): require('/Applications/M...')
+#12 {main}
+  thrown i /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/ecommerce-mega-store/rest-api.php på rad 20
+
+2024-01-05T13:54:08+00:00 CRITICAL Uncaught Error: Call to a member function prepare() on null in /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/ecommerce-mega-store/rest-api.php:20
+Stack trace:
+#0 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/rest-api/class-wp-rest-server.php(1193): Rest_routes->get_products(Object(WP_REST_Request))
+#1 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/rest-api/class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/ecommerce-mega...', Array, NULL)
+#2 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/rest-api/class-wp-rest-server.php(431): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/rest-api.php(424): WP_REST_Server->serve_request('/ecommerce-mega...')
+#4 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp.php(813): WP->parse_request('')
+#9 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/functions.php(1336): WP->main('')
+#10 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-blog-header.php(16): wp()
+#11 /Applications/MAMP/htdocs/examensarbete/wordpress/index.php(17): require('/Applications/M...')
+#12 {main}
+  thrown i /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/ecommerce-mega-store/rest-api.php på rad 20
+
+2024-01-05T13:55:04+00:00 CRITICAL Uncaught Error: Call to a member function prepare() on null in /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/ecommerce-mega-store/rest-api.php:19
+Stack trace:
+#0 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/rest-api/class-wp-rest-server.php(1193): Rest_routes->get_products(Object(WP_REST_Request))
+#1 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/rest-api/class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/ecommerce-mega...', Array, NULL)
+#2 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/rest-api/class-wp-rest-server.php(431): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/rest-api.php(424): WP_REST_Server->serve_request('/ecommerce-mega...')
+#4 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp.php(813): WP->parse_request('')
+#9 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/functions.php(1336): WP->main('')
+#10 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-blog-header.php(16): wp()
+#11 /Applications/MAMP/htdocs/examensarbete/wordpress/index.php(17): require('/Applications/M...')
+#12 {main}
+  thrown i /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/ecommerce-mega-store/rest-api.php på rad 19
+
+2024-01-05T13:57:38+00:00 CRITICAL Uncaught Error: Call to a member function prepare() on null in /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/ecommerce-mega-store/rest-api.php:19
+Stack trace:
+#0 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/rest-api/class-wp-rest-server.php(1193): Rest_routes->get_products(Object(WP_REST_Request))
+#1 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/rest-api/class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/ecommerce-mega...', Array, NULL)
+#2 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/rest-api/class-wp-rest-server.php(431): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/rest-api.php(424): WP_REST_Server->serve_request('/ecommerce-mega...')
+#4 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp.php(813): WP->parse_request('')
+#9 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/functions.php(1336): WP->main('')
+#10 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-blog-header.php(16): wp()
+#11 /Applications/MAMP/htdocs/examensarbete/wordpress/index.php(17): require('/Applications/M...')
+#12 {main}
+  thrown i /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/ecommerce-mega-store/rest-api.php på rad 19
+
+2024-01-05T13:59:39+00:00 CRITICAL syntax error, unexpected token "class" i /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/ecommerce-mega-store/rest-api.php på rad 4
+
+2024-01-05T14:00:53+00:00 CRITICAL Uncaught Error: Call to a member function prepare() on null in /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/ecommerce-mega-store/rest-api.php:20
+Stack trace:
+#0 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/rest-api/class-wp-rest-server.php(1193): Rest_routes->get_products(Object(WP_REST_Request))
+#1 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/rest-api/class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/ecommerce-mega...', Array, NULL)
+#2 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/rest-api/class-wp-rest-server.php(431): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/rest-api.php(424): WP_REST_Server->serve_request('/ecommerce-mega...')
+#4 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp.php(813): WP->parse_request('')
+#9 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/functions.php(1336): WP->main('')
+#10 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-blog-header.php(16): wp()
+#11 /Applications/MAMP/htdocs/examensarbete/wordpress/index.php(17): require('/Applications/M...')
+#12 {main}
+  thrown i /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/ecommerce-mega-store/rest-api.php på rad 20
+
+2024-01-05T14:03:35+00:00 CRITICAL Uncaught Error: Call to a member function prepare() on null in /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/ecommerce-mega-store/rest-api.php:20
+Stack trace:
+#0 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/rest-api/class-wp-rest-server.php(1193): Rest_routes->get_products(Object(WP_REST_Request))
+#1 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/rest-api/class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/ecommerce-mega...', Array, NULL)
+#2 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/rest-api/class-wp-rest-server.php(431): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/rest-api.php(424): WP_REST_Server->serve_request('/ecommerce-mega...')
+#4 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp.php(813): WP->parse_request('')
+#9 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/functions.php(1336): WP->main('')
+#10 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-blog-header.php(16): wp()
+#11 /Applications/MAMP/htdocs/examensarbete/wordpress/index.php(17): require('/Applications/M...')
+#12 {main}
+  thrown i /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/ecommerce-mega-store/rest-api.php på rad 20
+
+2024-01-05T14:03:41+00:00 CRITICAL Uncaught Error: Call to a member function prepare() on null in /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/ecommerce-mega-store/rest-api.php:20
+Stack trace:
+#0 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/rest-api/class-wp-rest-server.php(1193): Rest_routes->get_products(Object(WP_REST_Request))
+#1 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/rest-api/class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/ecommerce-mega...', Array, NULL)
+#2 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/rest-api/class-wp-rest-server.php(431): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/rest-api.php(424): WP_REST_Server->serve_request('/ecommerce-mega...')
+#4 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp.php(813): WP->parse_request('')
+#9 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/functions.php(1336): WP->main('')
+#10 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-blog-header.php(16): wp()
+#11 /Applications/MAMP/htdocs/examensarbete/wordpress/index.php(17): require('/Applications/M...')
+#12 {main}
+  thrown i /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/ecommerce-mega-store/rest-api.php på rad 20
+
+2024-01-05T14:04:12+00:00 CRITICAL Uncaught Error: Call to a member function prepare() on null in /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/ecommerce-mega-store/rest-api.php:20
+Stack trace:
+#0 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/rest-api/class-wp-rest-server.php(1193): Rest_routes->get_products(Object(WP_REST_Request))
+#1 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/rest-api/class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/ecommerce-mega...', Array, NULL)
+#2 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/rest-api/class-wp-rest-server.php(431): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/rest-api.php(424): WP_REST_Server->serve_request('/ecommerce-mega...')
+#4 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp.php(813): WP->parse_request('')
+#9 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/functions.php(1336): WP->main('')
+#10 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-blog-header.php(16): wp()
+#11 /Applications/MAMP/htdocs/examensarbete/wordpress/index.php(17): require('/Applications/M...')
+#12 {main}
+  thrown i /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/ecommerce-mega-store/rest-api.php på rad 20
+
+2024-01-05T15:17:50+00:00 CRITICAL Unclosed '{' on line 3 i /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/ecommerce-mega-store/controller.php på rad 24
+
+2024-01-05T15:34:57+00:00 CRITICAL Uncaught Error: Call to a member function getProducts() on null in /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/ecommerce-mega-store/controller.php:15
+Stack trace:
+#0 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/rest-api/class-wp-rest-server.php(1193): Rest_Controller->get_products(Object(WP_REST_Request))
+#1 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/rest-api/class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/ecommerce-mega...', Array, NULL)
+#2 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/rest-api/class-wp-rest-server.php(431): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/rest-api.php(424): WP_REST_Server->serve_request('/ecommerce-mega...')
+#4 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp.php(813): WP->parse_request('')
+#9 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/functions.php(1336): WP->main('')
+#10 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-blog-header.php(16): wp()
+#11 /Applications/MAMP/htdocs/examensarbete/wordpress/index.php(17): require('/Applications/M...')
+#12 {main}
+  thrown i /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/ecommerce-mega-store/controller.php på rad 15
+
+2024-01-05T15:35:11+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function DB::__construct(), 1 passed in /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/ecommerce-mega-store/controller.php on line 10 and exactly 3 expected in /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/ecommerce-mega-store/db.php:7
+Stack trace:
+#0 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/ecommerce-mega-store/controller.php(10): DB->__construct(Object(PDO))
+#1 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/ecommerce-mega-store/rest-api.php(10): Rest_Controller->__construct(Object(PDO))
+#2 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/ecommerce-mega-store/rest-api.php(22): Rest_routes->__construct(Object(PDO))
+#3 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/ecommerce-mega-store/functions.php(8): require_once('/Applications/M...')
+#4 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-settings.php(611): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-config.php(96): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-load.php(50): require_once('/Applications/M...')
+#7 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-blog-header.php(13): require_once('/Applications/M...')
+#8 /Applications/MAMP/htdocs/examensarbete/wordpress/index.php(17): require('/Applications/M...')
+#9 {main}
+  thrown i /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/ecommerce-mega-store/db.php på rad 7
+
+2024-01-05T15:35:37+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function DB::__construct(), 1 passed in /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/ecommerce-mega-store/controller.php on line 10 and exactly 3 expected in /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/ecommerce-mega-store/db.php:7
+Stack trace:
+#0 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/ecommerce-mega-store/controller.php(10): DB->__construct(Object(PDO))
+#1 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/ecommerce-mega-store/rest-api.php(10): Rest_Controller->__construct(Object(PDO))
+#2 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/ecommerce-mega-store/rest-api.php(22): Rest_routes->__construct(Object(PDO))
+#3 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/ecommerce-mega-store/functions.php(8): require_once('/Applications/M...')
+#4 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-settings.php(611): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-config.php(96): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-load.php(50): require_once('/Applications/M...')
+#7 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-blog-header.php(13): require_once('/Applications/M...')
+#8 /Applications/MAMP/htdocs/examensarbete/wordpress/index.php(17): require('/Applications/M...')
+#9 {main}
+  thrown i /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/ecommerce-mega-store/db.php på rad 7
+
+2024-01-05T15:36:26+00:00 CRITICAL Uncaught Error: Call to a member function getProducts() on null in /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/ecommerce-mega-store/controller.php:15
+Stack trace:
+#0 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/rest-api/class-wp-rest-server.php(1193): Rest_Controller->get_products(Object(WP_REST_Request))
+#1 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/rest-api/class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/ecommerce-mega...', Array, NULL)
+#2 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/rest-api/class-wp-rest-server.php(431): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/rest-api.php(424): WP_REST_Server->serve_request('/ecommerce-mega...')
+#4 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp.php(813): WP->parse_request('')
+#9 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/functions.php(1336): WP->main('')
+#10 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-blog-header.php(16): wp()
+#11 /Applications/MAMP/htdocs/examensarbete/wordpress/index.php(17): require('/Applications/M...')
+#12 {main}
+  thrown i /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/ecommerce-mega-store/controller.php på rad 15
+
