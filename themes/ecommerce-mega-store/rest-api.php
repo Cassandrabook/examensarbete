@@ -16,6 +16,13 @@ class Rest_routes {
             'methods' => 'GET',
             'callback' => array($this->controller, 'get_products'),
         ));
+
+        register_rest_route('ecommerce-mega-store/v1', '/sync-woocommerce', array(
+            'methods' => 'POST',
+            'callback' => array($this->controller, 'sync_to_woocommerce'),
+            'permission_callback' => '__return_true',
+        ));
+       
     }
 }
 

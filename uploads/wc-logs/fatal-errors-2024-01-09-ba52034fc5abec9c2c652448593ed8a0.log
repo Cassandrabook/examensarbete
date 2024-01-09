@@ -1,0 +1,29 @@
+2024-01-09T09:26:22+00:00 CRITICAL Array and string offset access syntax with curly braces is no longer supported i /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/ecommerce-mega-store/controller.php på rad 39
+
+2024-01-09T09:28:23+00:00 CRITICAL Array and string offset access syntax with curly braces is no longer supported i /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/ecommerce-mega-store/controller.php på rad 39
+
+2024-01-09T09:30:24+00:00 CRITICAL Array and string offset access syntax with curly braces is no longer supported i /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/ecommerce-mega-store/controller.php på rad 40
+
+2024-01-09T09:32:25+00:00 CRITICAL Array and string offset access syntax with curly braces is no longer supported i /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/ecommerce-mega-store/controller.php på rad 40
+
+2024-01-09T09:34:26+00:00 CRITICAL Unclosed '{' on line 3 i /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/ecommerce-mega-store/controller.php på rad 63
+
+2024-01-09T12:05:57+00:00 CRITICAL syntax error, unexpected token ";", expecting "function" or "const" i /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/ecommerce-mega-store/db.php på rad 61
+
+2024-01-09T12:08:31+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/ecommerce-mega-store/controller.php:57
+Stack trace:
+#0 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/rest-api/class-wp-rest-server.php(1193): Rest_Controller->sync_with_woocommerce(Object(WP_REST_Request))
+#1 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/rest-api/class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/ecommerce-mega...', Array, NULL)
+#2 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/rest-api/class-wp-rest-server.php(431): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/rest-api.php(424): WP_REST_Server->serve_request('/ecommerce-mega...')
+#4 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#5 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#7 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#8 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp.php(813): WP->parse_request('')
+#9 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/functions.php(1336): WP->main('')
+#10 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-blog-header.php(16): wp()
+#11 /Applications/MAMP/htdocs/examensarbete/wordpress/index.php(17): require('/Applications/M...')
+#12 {main}
+  thrown i /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/ecommerce-mega-store/controller.php på rad 57
+

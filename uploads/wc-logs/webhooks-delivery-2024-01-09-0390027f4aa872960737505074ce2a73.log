@@ -1,0 +1,112 @@
+2024-01-09T12:36:04+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => f79d3ff6bb3e048df58ee65b10556811
+            [Date] => 9 jan 2024 kl. 12:36
+            [URL] => http://localhost/examensarbete/wordpress/wp-json/wc/v3/receive_woocommerce_product
+            [Duration] => 2.57739
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/8.4.0 Hookshot (WordPress/6.4.2)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => http://localhost/examensarbete/wordpress/
+                            [X-WC-Webhook-Topic] => product.created
+                            [X-WC-Webhook-Resource] => product
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => xe0UZjljtxWZCD7gemYHupVq/cSwnQXFEAC1szr7jXk=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => f79d3ff6bb3e048df58ee65b10556811
+                        )
+
+                )
+
+            [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+            [Response] => Array
+                (
+                    [Code] => 404
+                    [Message] => Not Found
+                    [Headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [date] => Tue, 09 Jan 2024 12:36:01 GMT
+                                    [server] => Apache/2.4.54 (Unix) OpenSSL/1.0.2u PHP/8.2.0 mod_wsgi/3.5 Python/2.7.18 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.30.1
+                                    [x-powered-by] => PHP/8.2.0
+                                    [x-robots-tag] => noindex
+                                    [link] => <http://localhost/examensarbete/wordpress/wp-json/>; rel="https://api.w.org/"
+                                    [x-content-type-options] => nosniff
+                                    [access-control-expose-headers] => X-WP-Total, X-WP-TotalPages, Link
+                                    [access-control-allow-headers] => Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type
+                                    [content-length] => 123
+                                    [content-type] => application/json; charset=UTF-8
+                                )
+
+                        )
+
+                    [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+                )
+
+        )
+
+)
+
+2024-01-09T12:36:07+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 2a72cc82283623e23195619c71f0a6ec
+            [Date] => 9 jan 2024 kl. 12:36
+            [URL] => http://localhost/examensarbete/wordpress/wp-json/wc/v3/receive_woocommerce_product
+            [Duration] => 1.27244
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/8.4.0 Hookshot (WordPress/6.4.2)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => http://localhost/examensarbete/wordpress/
+                            [X-WC-Webhook-Topic] => product.created
+                            [X-WC-Webhook-Resource] => product
+                            [X-WC-Webhook-Event] => created
+                            [X-WC-Webhook-Signature] => H1x9u2cwrJCbQraM9r5xPfn6WcBvYjclbjNJydMkqD4=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => 2a72cc82283623e23195619c71f0a6ec
+                        )
+
+                )
+
+            [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+            [Response] => Array
+                (
+                    [Code] => 404
+                    [Message] => Not Found
+                    [Headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [date] => Tue, 09 Jan 2024 12:36:06 GMT
+                                    [server] => Apache/2.4.54 (Unix) OpenSSL/1.0.2u PHP/8.2.0 mod_wsgi/3.5 Python/2.7.18 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.30.1
+                                    [x-powered-by] => PHP/8.2.0
+                                    [x-robots-tag] => noindex
+                                    [link] => <http://localhost/examensarbete/wordpress/wp-json/>; rel="https://api.w.org/"
+                                    [x-content-type-options] => nosniff
+                                    [access-control-expose-headers] => X-WP-Total, X-WP-TotalPages, Link
+                                    [access-control-allow-headers] => Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type
+                                    [content-length] => 123
+                                    [content-type] => application/json; charset=UTF-8
+                                )
+
+                        )
+
+                    [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+                )
+
+        )
+
+)
+
