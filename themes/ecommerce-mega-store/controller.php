@@ -44,6 +44,43 @@ class Rest_Controller {
             }
         }
     }
+
+    function get_and_save_woocommerce_products() {
+       
+        $woocommerce_api_url = 'http://localhost/examensarbete/wordpress/wp-json/wc/v3/products';
+    
+        // Gör en GET-förfrågan till WooCommerce API
+        $response = wp_remote_get($woocommerce_api_url, array(
+            'headers' => array(
+                'Authorization' => 'Basic ' . base64_encode($consumerKey . ':' . $consumerSecret)
+            )
+        ));
+    
+        if (is_wp_error($response)) {
+            // Hantera fel här
+            return;
+        }
+    
+        $products = json_decode(wp_remote_retrieve_body($response), true);
+    
+        foreach ($products as $product) {
+            // Extrahera produktinformation
+            $product_id = $product['id'];
+            $product_name = $product['name'];
+            $product_description = $product['description'];
+            $product_brandId = 0; // Antag standardvärde eller bestäm baserat på någon logik
+            $product_categoryId = 0; // Antag standardvärde eller bestäm baserat på någon logik
+        
+            
+           
+        }        
+    }
+    
+    function save_product_to_db($product) {
+        // Din logik för att spara produktdata i databasen
+        // Använd PDO eller en liknande databashanterare för att spara data
+    }
+    
     
 }
 
