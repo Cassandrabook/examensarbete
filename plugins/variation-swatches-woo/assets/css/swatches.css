@@ -180,7 +180,7 @@ table.cfvsw-shop-variations,
 }
 
 .cfvsw-shop-variations tr td {
-  display: flex;
+  display: none;
 }
 .cfvsw_shop_align_center table tr td {
   justify-content: center;
