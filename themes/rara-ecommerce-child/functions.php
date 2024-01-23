@@ -95,3 +95,25 @@ if( rara_ecommerce_is_woocommerce_activated() ){
  * Implement Local Font Method functions.
  */
 require get_template_directory() . '/inc/class-webfont-loader.php';      
+
+function remove_standard_shipping( $rates, $package ) {
+    $free_shipping = false;
+    foreach ( $rates as $rate ) {
+        if ( 'free_shipping' === $rate->method_id ) {
+            $free_shipping = true;
+            break;
+        }
+    }
+ 
+    if ( $free_shipping ) {
+        foreach ( $rates as $rate_key => $rate ) {
+            if ( 'free_shipping' !== $rate->method_id ) {
+                unset( $rates[ $rate_key ] );
+            }
+        }
+    }
+ 
+    return $rates;
+}
+add_filter( 'woocommerce_package_rates', 'remove_standard_shipping', 10, 2 );
+

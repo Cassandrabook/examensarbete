@@ -89,7 +89,8 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
   max-width: 1322px;
   width: 100%;
   margin: auto;
-  padding: 0 10px;
+  padding: 20px 10px 0px 10px;
+  color: white;
 }
 
 @media (max-width: 1440px) {
@@ -204,6 +205,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 
 #primary {
   margin-bottom: 60px;
+  color: black;
 }
 
 .full-width.centered .site-main,
@@ -609,12 +611,6 @@ abbr,
 acronym {
   border-bottom: 1px dotted #666;
   cursor: help;
-}
-
-mark,
-ins {
-  background: #fff9c0;
-  text-decoration: none;
 }
 
 big {
@@ -1935,9 +1931,6 @@ input[type="checkbox"]:checked {
 }
 
 .archive .page-header {
-  padding: 23px 0 48px;
-  background-color: #fafbfc;
-  margin-bottom: 56px;
   margin-top: 0;
 }
 .archive .page-header .page-title {
@@ -2149,7 +2142,7 @@ Headers
   flex-wrap: wrap;
 }
 .site-header .header-mid .advance-product-search {
-  width: 45.7%;
+  width: 30%;
   padding: 0 13px 11px 13px;
   border-bottom: 1px solid #d9d9d9;
 }
@@ -2190,8 +2183,7 @@ Headers
   height: auto;
 }
 .site-header .header-mid .advance-product-search .cat-dropdown {
-  width: 136px;
-  margin-right: 22px;
+  display: none;
 }
 .site-header .header-mid .advance-product-search button:hover path {
   fill: var(--primary-color);
@@ -7205,6 +7197,7 @@ author
   display: flex;
   flex-wrap: wrap;
   margin: 0 -15px;
+  padding: 0 10px;
 }
 .classic-view.full-width .post {
   width: calc(50% - 30px);
@@ -10056,9 +10049,7 @@ p.demo_store a:hover {
 .woocommerce.leftsidebar ul.products::before {
   content: none;
 }
-.woocommerce .page-header {
-  margin-bottom: 56px;
-}
+
 .woocommerce .site-main .woocommerce-result-count {
   font-size: 0.938em;
   font-weight: 500;
@@ -10219,6 +10210,8 @@ p.demo_store a:hover {
   font-weight: 500;
   height: 36px;
   padding: 0 40px 0 15px;
+  color: black;
+  font-weight: 500;
   appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -10242,9 +10235,12 @@ p.demo_store a:hover {
 .woocommerce ul.products {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-column-gap: 30px;
+  grid-column-gap: 50px;
   grid-row-gap: 24px;
   width: 100%;
+  max-width: 1322px;
+  padding: 0 10px;
+  margin: 0 auto;
 }
 @media (max-width: 1024px) {
   .woocommerce ul.products {
@@ -12731,6 +12727,7 @@ WIDGET PRODUCT CATEGORY
 }
 .widget_product_categories ul.product-categories li .children {
   margin-top: 10px;
+  padding-left: 15px;
 }
 .widget_product_categories ul.product-categories li a {
   display: inline-block;
@@ -12756,7 +12753,7 @@ WIDGET PRODUCT CATEGORY
 }
 .widget_product_categories ul.product-categories li.current-cat > a {
   font-weight: 600;
-  color: var(--dark-black);
+  color: #d8b599;
 }
 
 /*============================
