@@ -91,6 +91,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
   margin: auto;
   padding: 0 10px;
 }
+
 @media (max-width: 1440px) {
   .container-sm {
     max-width: 1170px;
@@ -2997,9 +2998,7 @@ body .owl-next i {
 
 /*  BreadCrumbs 
 ------------------------------ */
-.page-header {
-  margin-top: 24px;
-}
+
 .page-header #crumbs {
   font-size: 0.875em;
   line-height: 1.75;
@@ -9230,9 +9229,6 @@ author
 
 .woocommerce-page .page-header {
   text-align: left;
-  background-color: #f5f5f5;
-  padding: 52px 0;
-  margin: 0 0px 42px;
 }
 .woocommerce-page .page-header .page-title {
   font-size: 2em;
