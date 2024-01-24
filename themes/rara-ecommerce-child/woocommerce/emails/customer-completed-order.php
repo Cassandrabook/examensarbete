@@ -1,8 +1,8 @@
 <?php
 /**
- * Customer processing order email
+ * Customer completed order email
  *
- * This template can be overridden by copying it to yourtheme/woocommerce/emails/customer-processing-order.php.
+ * This template can be overridden by copying it to yourtheme/woocommerce/emails/customer-completed-order.php.
  *
  * HOWEVER, on occasion WooCommerce will need to update template files and you
  * (the theme developer) will need to copy the new files to your theme to
@@ -26,11 +26,8 @@ do_action( 'woocommerce_email_header', $email_heading, $email ); ?>
 
 <?php /* translators: %s: Customer first name */ ?>
 <p><?php printf( esc_html__( 'Hi %s,', 'woocommerce' ), esc_html( $order->get_billing_first_name() ) ); ?></p>
-<?php /* translators: %s: Order number */ ?>
-<p><?php printf( esc_html__( 'Vi hoppas att du har haft en trevlig shoppingupplevelse! Vi har nu mottagit din order med nummer: #%s, och kontaktar dig när ditt paket har skickats. Nedan hittar du information om ditt köp.', 'woocommerce' ), esc_html( $order->get_order_number() ) ); ?></p>
-
+<p><?php esc_html_e( 'Din order är nu packad och är på väg till dig!', 'woocommerce' ); ?></p>
 <?php
-
 
 /*
  * @hooked WC_Emails::order_details() Shows the order details table.
