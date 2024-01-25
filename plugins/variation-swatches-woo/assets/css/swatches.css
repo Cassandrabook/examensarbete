@@ -57,7 +57,7 @@
     .cfvsw-swatches-disabled,
     .cfvsw-swatches-out-of-stock
   ):hover {
-  border: 1px solid var(--cfvsw-swatches-border-color-hover, #00000090);
+  border: 1px solid #d8b599;
   box-sizing: border-box;
 }
 .cfvsw-image-option {
@@ -70,9 +70,19 @@
   padding: 5px 10px;
 }
 
+.cfvsw-label-option:hover {
+  background-color: #d8b599;
+  color: white;
+  border: 1px solid #d8b599;
+}
+
 .cfvsw-selected-swatch {
   border: 1px solid var(--cfvsw-swatches-border-color-hover, #00000090) !important;
   box-sizing: border-box;
+}
+
+.cfvsw-selected-swatch:hover {
+  border: 1px solid #d8b599 !important;
 }
 
 .cfvsw-swatches-hide,
@@ -267,16 +277,11 @@ table.cfvsw-shop-variations,
 }
 
 .cfvsw-selected-label {
-  content: " : ";
-  font-weight: 300;
+  display: none;
 }
 
 .cfvsw-selected-label::before {
   content: " : ";
-}
-
-.cfvsw-label-none table.variations tr th.label {
-  display: none !important;
 }
 
 .cfvsw-label-inline table.variations td {
