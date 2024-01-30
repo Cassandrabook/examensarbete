@@ -34,3 +34,329 @@ Stack trace:
 #4 {main}
   thrown i /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/rara-ecommerce-child/inc/custom-functions.php på rad 568
 
+2024-01-30T12:07:24+00:00 CRITICAL Maximum execution time of 30 seconds exceeded i /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-image-editor.php på rad 591
+
+2024-01-30T13:46:31+00:00 CRITICAL Uncaught Error: Call to undefined function seva_get_fonts() in /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/rara-ecommerce-child/inc/custom-functions.php:568
+Stack trace:
+#0 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(324): rara_ecommerce_dynamic_mce_css_ajax_callback('')
+#1 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-admin/admin-ajax.php(188): do_action('wp_ajax_rara_ec...')
+#4 {main}
+  thrown i /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/rara-ecommerce-child/inc/custom-functions.php på rad 568
+
+2024-01-30T13:46:38+00:00 CRITICAL Uncaught Error: Call to undefined function seva_get_fonts() in /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/rara-ecommerce-child/inc/custom-functions.php:568
+Stack trace:
+#0 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(324): rara_ecommerce_dynamic_mce_css_ajax_callback('')
+#1 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-admin/admin-ajax.php(188): do_action('wp_ajax_rara_ec...')
+#4 {main}
+  thrown i /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/rara-ecommerce-child/inc/custom-functions.php på rad 568
+
+2024-01-30T13:48:43+00:00 CRITICAL Uncaught Error: Call to undefined function seva_get_fonts() in /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/rara-ecommerce-child/inc/custom-functions.php:568
+Stack trace:
+#0 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(324): rara_ecommerce_dynamic_mce_css_ajax_callback('')
+#1 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-admin/admin-ajax.php(188): do_action('wp_ajax_rara_ec...')
+#4 {main}
+  thrown i /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/rara-ecommerce-child/inc/custom-functions.php på rad 568
+
+2024-01-30T13:48:49+00:00 CRITICAL Uncaught Error: Call to undefined function seva_get_fonts() in /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/rara-ecommerce-child/inc/custom-functions.php:568
+Stack trace:
+#0 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(324): rara_ecommerce_dynamic_mce_css_ajax_callback('')
+#1 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-admin/admin-ajax.php(188): do_action('wp_ajax_rara_ec...')
+#4 {main}
+  thrown i /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/rara-ecommerce-child/inc/custom-functions.php på rad 568
+
+2024-01-30T13:49:13+00:00 CRITICAL Uncaught Error: Call to undefined function seva_get_fonts() in /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/rara-ecommerce-child/inc/custom-functions.php:568
+Stack trace:
+#0 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(324): rara_ecommerce_dynamic_mce_css_ajax_callback('')
+#1 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-admin/admin-ajax.php(188): do_action('wp_ajax_rara_ec...')
+#4 {main}
+  thrown i /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/rara-ecommerce-child/inc/custom-functions.php på rad 568
+
+2024-01-30T13:49:16+00:00 CRITICAL Uncaught Error: Call to undefined function seva_get_fonts() in /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/rara-ecommerce-child/inc/custom-functions.php:568
+Stack trace:
+#0 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(324): rara_ecommerce_dynamic_mce_css_ajax_callback('')
+#1 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-admin/admin-ajax.php(188): do_action('wp_ajax_rara_ec...')
+#4 {main}
+  thrown i /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/rara-ecommerce-child/inc/custom-functions.php på rad 568
+
+2024-01-30T13:51:18+00:00 CRITICAL Uncaught Error: Call to undefined function seva_get_fonts() in /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/rara-ecommerce-child/inc/custom-functions.php:568
+Stack trace:
+#0 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(324): rara_ecommerce_dynamic_mce_css_ajax_callback('')
+#1 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-admin/admin-ajax.php(188): do_action('wp_ajax_rara_ec...')
+#4 {main}
+  thrown i /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/rara-ecommerce-child/inc/custom-functions.php på rad 568
+
+2024-01-30T13:51:19+00:00 CRITICAL Uncaught Error: Call to undefined function seva_get_fonts() in /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/rara-ecommerce-child/inc/custom-functions.php:568
+Stack trace:
+#0 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(324): rara_ecommerce_dynamic_mce_css_ajax_callback('')
+#1 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-admin/admin-ajax.php(188): do_action('wp_ajax_rara_ec...')
+#4 {main}
+  thrown i /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/rara-ecommerce-child/inc/custom-functions.php på rad 568
+
+2024-01-30T13:51:30+00:00 CRITICAL Uncaught Error: Call to undefined function seva_get_fonts() in /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/rara-ecommerce-child/inc/custom-functions.php:568
+Stack trace:
+#0 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(324): rara_ecommerce_dynamic_mce_css_ajax_callback('')
+#1 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-admin/admin-ajax.php(188): do_action('wp_ajax_rara_ec...')
+#4 {main}
+  thrown i /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/rara-ecommerce-child/inc/custom-functions.php på rad 568
+
+2024-01-30T13:51:33+00:00 CRITICAL Uncaught Error: Call to undefined function seva_get_fonts() in /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/rara-ecommerce-child/inc/custom-functions.php:568
+Stack trace:
+#0 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(324): rara_ecommerce_dynamic_mce_css_ajax_callback('')
+#1 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-admin/admin-ajax.php(188): do_action('wp_ajax_rara_ec...')
+#4 {main}
+  thrown i /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/rara-ecommerce-child/inc/custom-functions.php på rad 568
+
+2024-01-30T13:53:00+00:00 CRITICAL Uncaught Error: Call to undefined function seva_get_fonts() in /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/rara-ecommerce-child/inc/custom-functions.php:568
+Stack trace:
+#0 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(324): rara_ecommerce_dynamic_mce_css_ajax_callback('')
+#1 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-admin/admin-ajax.php(188): do_action('wp_ajax_rara_ec...')
+#4 {main}
+  thrown i /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/rara-ecommerce-child/inc/custom-functions.php på rad 568
+
+2024-01-30T13:53:02+00:00 CRITICAL Uncaught Error: Call to undefined function seva_get_fonts() in /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/rara-ecommerce-child/inc/custom-functions.php:568
+Stack trace:
+#0 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(324): rara_ecommerce_dynamic_mce_css_ajax_callback('')
+#1 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-admin/admin-ajax.php(188): do_action('wp_ajax_rara_ec...')
+#4 {main}
+  thrown i /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/rara-ecommerce-child/inc/custom-functions.php på rad 568
+
+2024-01-30T13:53:15+00:00 CRITICAL Uncaught Error: Call to undefined function seva_get_fonts() in /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/rara-ecommerce-child/inc/custom-functions.php:568
+Stack trace:
+#0 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(324): rara_ecommerce_dynamic_mce_css_ajax_callback('')
+#1 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-admin/admin-ajax.php(188): do_action('wp_ajax_rara_ec...')
+#4 {main}
+  thrown i /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/rara-ecommerce-child/inc/custom-functions.php på rad 568
+
+2024-01-30T13:53:17+00:00 CRITICAL Uncaught Error: Call to undefined function seva_get_fonts() in /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/rara-ecommerce-child/inc/custom-functions.php:568
+Stack trace:
+#0 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(324): rara_ecommerce_dynamic_mce_css_ajax_callback('')
+#1 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-admin/admin-ajax.php(188): do_action('wp_ajax_rara_ec...')
+#4 {main}
+  thrown i /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/rara-ecommerce-child/inc/custom-functions.php på rad 568
+
+2024-01-30T13:55:02+00:00 CRITICAL Uncaught Error: Call to undefined function seva_get_fonts() in /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/rara-ecommerce-child/inc/custom-functions.php:568
+Stack trace:
+#0 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(324): rara_ecommerce_dynamic_mce_css_ajax_callback('')
+#1 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-admin/admin-ajax.php(188): do_action('wp_ajax_rara_ec...')
+#4 {main}
+  thrown i /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/rara-ecommerce-child/inc/custom-functions.php på rad 568
+
+2024-01-30T13:55:07+00:00 CRITICAL Uncaught Error: Call to undefined function seva_get_fonts() in /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/rara-ecommerce-child/inc/custom-functions.php:568
+Stack trace:
+#0 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(324): rara_ecommerce_dynamic_mce_css_ajax_callback('')
+#1 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-admin/admin-ajax.php(188): do_action('wp_ajax_rara_ec...')
+#4 {main}
+  thrown i /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/rara-ecommerce-child/inc/custom-functions.php på rad 568
+
+2024-01-30T13:55:15+00:00 CRITICAL Uncaught Error: Call to undefined function seva_get_fonts() in /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/rara-ecommerce-child/inc/custom-functions.php:568
+Stack trace:
+#0 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(324): rara_ecommerce_dynamic_mce_css_ajax_callback('')
+#1 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-admin/admin-ajax.php(188): do_action('wp_ajax_rara_ec...')
+#4 {main}
+  thrown i /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/rara-ecommerce-child/inc/custom-functions.php på rad 568
+
+2024-01-30T13:55:17+00:00 CRITICAL Uncaught Error: Call to undefined function seva_get_fonts() in /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/rara-ecommerce-child/inc/custom-functions.php:568
+Stack trace:
+#0 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(324): rara_ecommerce_dynamic_mce_css_ajax_callback('')
+#1 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-admin/admin-ajax.php(188): do_action('wp_ajax_rara_ec...')
+#4 {main}
+  thrown i /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/rara-ecommerce-child/inc/custom-functions.php på rad 568
+
+2024-01-30T13:56:21+00:00 CRITICAL Uncaught Error: Call to undefined function seva_get_fonts() in /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/rara-ecommerce-child/inc/custom-functions.php:568
+Stack trace:
+#0 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(324): rara_ecommerce_dynamic_mce_css_ajax_callback('')
+#1 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-admin/admin-ajax.php(188): do_action('wp_ajax_rara_ec...')
+#4 {main}
+  thrown i /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/rara-ecommerce-child/inc/custom-functions.php på rad 568
+
+2024-01-30T13:56:24+00:00 CRITICAL Uncaught Error: Call to undefined function seva_get_fonts() in /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/rara-ecommerce-child/inc/custom-functions.php:568
+Stack trace:
+#0 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(324): rara_ecommerce_dynamic_mce_css_ajax_callback('')
+#1 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-admin/admin-ajax.php(188): do_action('wp_ajax_rara_ec...')
+#4 {main}
+  thrown i /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/rara-ecommerce-child/inc/custom-functions.php på rad 568
+
+2024-01-30T14:01:41+00:00 CRITICAL Uncaught Error: Call to undefined function seva_get_fonts() in /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/rara-ecommerce-child/inc/custom-functions.php:568
+Stack trace:
+#0 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(324): rara_ecommerce_dynamic_mce_css_ajax_callback('')
+#1 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-admin/admin-ajax.php(188): do_action('wp_ajax_rara_ec...')
+#4 {main}
+  thrown i /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/rara-ecommerce-child/inc/custom-functions.php på rad 568
+
+2024-01-30T14:01:45+00:00 CRITICAL Uncaught Error: Call to undefined function seva_get_fonts() in /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/rara-ecommerce-child/inc/custom-functions.php:568
+Stack trace:
+#0 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(324): rara_ecommerce_dynamic_mce_css_ajax_callback('')
+#1 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-admin/admin-ajax.php(188): do_action('wp_ajax_rara_ec...')
+#4 {main}
+  thrown i /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/rara-ecommerce-child/inc/custom-functions.php på rad 568
+
+2024-01-30T14:04:33+00:00 CRITICAL Uncaught Error: Call to undefined function seva_get_fonts() in /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/rara-ecommerce-child/inc/custom-functions.php:568
+Stack trace:
+#0 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(324): rara_ecommerce_dynamic_mce_css_ajax_callback('')
+#1 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-admin/admin-ajax.php(188): do_action('wp_ajax_rara_ec...')
+#4 {main}
+  thrown i /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/rara-ecommerce-child/inc/custom-functions.php på rad 568
+
+2024-01-30T14:04:39+00:00 CRITICAL Uncaught Error: Call to undefined function seva_get_fonts() in /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/rara-ecommerce-child/inc/custom-functions.php:568
+Stack trace:
+#0 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(324): rara_ecommerce_dynamic_mce_css_ajax_callback('')
+#1 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-admin/admin-ajax.php(188): do_action('wp_ajax_rara_ec...')
+#4 {main}
+  thrown i /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/rara-ecommerce-child/inc/custom-functions.php på rad 568
+
+2024-01-30T14:05:00+00:00 CRITICAL Uncaught Error: Call to undefined function seva_get_fonts() in /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/rara-ecommerce-child/inc/custom-functions.php:568
+Stack trace:
+#0 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(324): rara_ecommerce_dynamic_mce_css_ajax_callback('')
+#1 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-admin/admin-ajax.php(188): do_action('wp_ajax_rara_ec...')
+#4 {main}
+  thrown i /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/rara-ecommerce-child/inc/custom-functions.php på rad 568
+
+2024-01-30T14:05:04+00:00 CRITICAL Uncaught Error: Call to undefined function seva_get_fonts() in /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/rara-ecommerce-child/inc/custom-functions.php:568
+Stack trace:
+#0 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(324): rara_ecommerce_dynamic_mce_css_ajax_callback('')
+#1 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-admin/admin-ajax.php(188): do_action('wp_ajax_rara_ec...')
+#4 {main}
+  thrown i /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/rara-ecommerce-child/inc/custom-functions.php på rad 568
+
+2024-01-30T14:06:39+00:00 CRITICAL Uncaught Error: Call to undefined function seva_get_fonts() in /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/rara-ecommerce-child/inc/custom-functions.php:568
+Stack trace:
+#0 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(324): rara_ecommerce_dynamic_mce_css_ajax_callback('')
+#1 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-admin/admin-ajax.php(188): do_action('wp_ajax_rara_ec...')
+#4 {main}
+  thrown i /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/rara-ecommerce-child/inc/custom-functions.php på rad 568
+
+2024-01-30T14:06:43+00:00 CRITICAL Uncaught Error: Call to undefined function seva_get_fonts() in /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/rara-ecommerce-child/inc/custom-functions.php:568
+Stack trace:
+#0 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(324): rara_ecommerce_dynamic_mce_css_ajax_callback('')
+#1 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-admin/admin-ajax.php(188): do_action('wp_ajax_rara_ec...')
+#4 {main}
+  thrown i /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/rara-ecommerce-child/inc/custom-functions.php på rad 568
+
+2024-01-30T14:07:03+00:00 CRITICAL Uncaught Error: Call to undefined function seva_get_fonts() in /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/rara-ecommerce-child/inc/custom-functions.php:568
+Stack trace:
+#0 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(324): rara_ecommerce_dynamic_mce_css_ajax_callback('')
+#1 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-admin/admin-ajax.php(188): do_action('wp_ajax_rara_ec...')
+#4 {main}
+  thrown i /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/rara-ecommerce-child/inc/custom-functions.php på rad 568
+
+2024-01-30T14:07:08+00:00 CRITICAL Uncaught Error: Call to undefined function seva_get_fonts() in /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/rara-ecommerce-child/inc/custom-functions.php:568
+Stack trace:
+#0 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(324): rara_ecommerce_dynamic_mce_css_ajax_callback('')
+#1 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-admin/admin-ajax.php(188): do_action('wp_ajax_rara_ec...')
+#4 {main}
+  thrown i /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/rara-ecommerce-child/inc/custom-functions.php på rad 568
+
+2024-01-30T14:08:23+00:00 CRITICAL Uncaught Error: Call to undefined function seva_get_fonts() in /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/rara-ecommerce-child/inc/custom-functions.php:568
+Stack trace:
+#0 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(324): rara_ecommerce_dynamic_mce_css_ajax_callback('')
+#1 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-admin/admin-ajax.php(188): do_action('wp_ajax_rara_ec...')
+#4 {main}
+  thrown i /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/rara-ecommerce-child/inc/custom-functions.php på rad 568
+
+2024-01-30T14:08:25+00:00 CRITICAL Uncaught Error: Call to undefined function seva_get_fonts() in /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/rara-ecommerce-child/inc/custom-functions.php:568
+Stack trace:
+#0 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(324): rara_ecommerce_dynamic_mce_css_ajax_callback('')
+#1 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-admin/admin-ajax.php(188): do_action('wp_ajax_rara_ec...')
+#4 {main}
+  thrown i /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/rara-ecommerce-child/inc/custom-functions.php på rad 568
+
+2024-01-30T14:08:35+00:00 CRITICAL Uncaught Error: Call to undefined function seva_get_fonts() in /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/rara-ecommerce-child/inc/custom-functions.php:568
+Stack trace:
+#0 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(324): rara_ecommerce_dynamic_mce_css_ajax_callback('')
+#1 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-admin/admin-ajax.php(188): do_action('wp_ajax_rara_ec...')
+#4 {main}
+  thrown i /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/rara-ecommerce-child/inc/custom-functions.php på rad 568
+
+2024-01-30T14:08:37+00:00 CRITICAL Uncaught Error: Call to undefined function seva_get_fonts() in /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/rara-ecommerce-child/inc/custom-functions.php:568
+Stack trace:
+#0 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(324): rara_ecommerce_dynamic_mce_css_ajax_callback('')
+#1 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-admin/admin-ajax.php(188): do_action('wp_ajax_rara_ec...')
+#4 {main}
+  thrown i /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/rara-ecommerce-child/inc/custom-functions.php på rad 568
+
+2024-01-30T14:09:40+00:00 CRITICAL Uncaught Error: Call to undefined function seva_get_fonts() in /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/rara-ecommerce-child/inc/custom-functions.php:568
+Stack trace:
+#0 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(324): rara_ecommerce_dynamic_mce_css_ajax_callback('')
+#1 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-admin/admin-ajax.php(188): do_action('wp_ajax_rara_ec...')
+#4 {main}
+  thrown i /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/rara-ecommerce-child/inc/custom-functions.php på rad 568
+
+2024-01-30T14:09:46+00:00 CRITICAL Uncaught Error: Call to undefined function seva_get_fonts() in /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/rara-ecommerce-child/inc/custom-functions.php:568
+Stack trace:
+#0 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(324): rara_ecommerce_dynamic_mce_css_ajax_callback('')
+#1 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/examensarbete/wordpress/wp-admin/admin-ajax.php(188): do_action('wp_ajax_rara_ec...')
+#4 {main}
+  thrown i /Applications/MAMP/htdocs/examensarbete/wordpress/wp-content/themes/rara-ecommerce-child/inc/custom-functions.php på rad 568
+

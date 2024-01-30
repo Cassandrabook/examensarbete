@@ -7471,11 +7471,24 @@ author
   color: var(--primary-color);
 }
 
+.about-shop-wrapper {
+  display: flex;
+  gap: 50px;
+  width: 100%;
+}
+
+.about-shop-wrapper > .widget {
+  width: 50%;
+  color: black;
+}
+
 .about-section {
-  max-width: 800px;
+  max-width: 1860px;
+  width: 100%;
   margin: 108px auto;
   text-align: center;
 }
+
 @media (max-width: 1024px) {
   .about-section {
     margin: 80px auto;
@@ -7743,7 +7756,7 @@ author
   all: unset;
 }
 .testimonial-section .testimonial-wrapper {
-  background-color: #faf7ee;
+  background-color: #d8b599;
   padding-top: 40px;
   padding-bottom: 40px;
 }
@@ -7836,6 +7849,7 @@ author
   text-align: left;
   font-weight: 500;
   margin-bottom: 38px;
+  color: white;
 }
 @media (max-width: 1440px) {
   .testimonial-section .testimonial-wrap .section-title {
