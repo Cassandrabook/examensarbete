@@ -7414,14 +7414,14 @@ author
   .widget_shopping_cart
   .woocommerce-mini-cart__buttons.buttons
   a:hover {
-  background-color: #93834d;
+  background-color: #3ed36a;
 }
 .cart-block
   .widget_shopping_cart
   .woocommerce-mini-cart__buttons.buttons
   a.checkout {
   margin-top: 8px;
-  background-color: #93834d;
+  background-color: #3ed36a;
 }
 .cart-block
   .widget_shopping_cart
@@ -9245,9 +9245,8 @@ author
   font-weight: 600;
   margin: 8px 0 0;
 }
-
-.woocommerce.woocommerce-shop .page-header {
-  margin-bottom: 95px;
+.woocommerce-page .page-header .sub-title {
+  display: none;
 }
 
 .woocommerce #content table.cart .product-thumbnail,
