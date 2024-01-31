@@ -117,3 +117,37 @@ function remove_standard_shipping( $rates, $package ) {
 }
 add_filter( 'woocommerce_package_rates', 'remove_standard_shipping', 10, 2 );
 
+// Lägg till alla produkter med rabatt i kategorin "REA"
+function add_existing_products_to_rea_category() {
+    // Hämta alla produkter med rabatt
+    $args = array(
+        'post_type'      => 'product',
+        'posts_per_page' => -1,
+        'meta_query'     => array(
+            array(
+                'key'     => '_sale_price',
+                'value'   => '',
+                'compare' => '!=',
+            ),
+        ),
+    );
+
+    $products = new WP_Query( $args );
+
+    // Lägg till produkterna i kategorin "REA"
+    if ( $products->have_posts() ) {
+        $rea_category = get_term_by( 'name', 'REA', 'product_cat' );
+
+        while ( $products->have_posts() ) {
+            $products->the_post();
+            wp_set_object_terms( get_the_ID(), 'REA', 'product_cat', true );
+        }
+
+        wp_reset_postdata();
+    }
+}
+
+// Kör funktionen när koden aktiveras
+add_action( 'after_switch_theme', 'add_existing_products_to_rea_category' );
+
+
