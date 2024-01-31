@@ -1695,10 +1695,9 @@ input[type="checkbox"]:checked {
 }
 .yith-wcqv-main #yith-quick-view-content .product .summary .stock {
   display: inline-block;
-  background-color: #44bb9e;
   font-size: 0.875em;
   padding: 1px 9px;
-  color: var(--white-color);
+  color: var(--dark-black);
   width: unset;
   margin-top: 0;
   order: -2;
@@ -10616,6 +10615,16 @@ p.demo_store a:hover {
   transform: translateX(-50%);
   text-align: center;
 }
+
+.woocommerce
+  ul.products
+  li.product
+  .product-meta
+  .yith-wcwl-wishlistexistsbrowse
+  .feedback {
+  display: none;
+}
+
 .woocommerce ul.products li.product .product-meta .compare {
   display: inline-block;
   position: relative;
@@ -11947,8 +11956,8 @@ p.demo_store a:hover {
   text-decoration: unset;
   font-weight: 500;
   font-size: 1em;
-  padding: 13px 23px;
-  width: 72%;
+  padding: 7px 17px;
+  width: 100%;
   margin: 0 auto !important;
 }
 .woocommerce.woocommerce-wishlist

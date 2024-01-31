@@ -1,9 +1,10 @@
 <?php
-// din-huvudfil.php
+require_once('path/till/api-keys.php');
+require 'vendor/autoload.php'; // Sökvägen till autoload.php kan variera beroende på din installation
 
-require_once 'api-keys.php';
+use Automattic\WooCommerce\Client;
 
-$woocommerce = new Automattic\WooCommerce\Client(
+$woocommerce = new Client(
     'http://localhost/examensarbete/wordpress/', 
     CONSUMER_KEY, 
     CONSUMER_SECRET,
@@ -13,4 +14,8 @@ $woocommerce = new Automattic\WooCommerce\Client(
     ]
 );
 
-print_r($woocommerce->get('products'));
+// Exempel på att hämta produkter från WooCommerce
+$products = $woocommerce->get('products');
+
+// Gör något med $products, t.ex. skriv ut dem
+print_r($products);

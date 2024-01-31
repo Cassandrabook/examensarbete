@@ -94,7 +94,11 @@ if( rara_ecommerce_is_woocommerce_activated() ){
 /**
  * Implement Local Font Method functions.
  */
-require get_template_directory() . '/inc/class-webfont-loader.php';      
+require get_template_directory() . '/inc/class-webfont-loader.php';    
+
+/**
+ * Egna funktioner jag lagt till
+ */
 
 function remove_standard_shipping( $rates, $package ) {
     $free_shipping = false;
@@ -146,8 +150,4 @@ function add_existing_products_to_rea_category() {
         wp_reset_postdata();
     }
 }
-
-// Kör funktionen när koden aktiveras
-add_action( 'after_switch_theme', 'add_existing_products_to_rea_category' );
-
 
