@@ -6128,6 +6128,7 @@ author
 }
 .featured-section .section-block {
   position: relative;
+  height: 100%;
 }
 .featured-section .section-block:first-child {
   grid-column: 1 / span 2;
