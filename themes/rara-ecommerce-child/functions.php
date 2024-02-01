@@ -121,6 +121,7 @@ function remove_standard_shipping( $rates, $package ) {
 }
 add_filter( 'woocommerce_package_rates', 'remove_standard_shipping', 10, 2 );
 
+
 // Lägg till alla produkter med rabatt i kategorin "REA"
 function add_existing_products_to_rea_category() {
     // Hämta alla produkter med rabatt
@@ -150,22 +151,4 @@ function add_existing_products_to_rea_category() {
         wp_reset_postdata();
     }
 }
-
-// Kör funktionen när koden aktiveras
-add_action( 'after_switch_theme', 'add_existing_products_to_rea_category' );
-
-function custom_woocommerce_text_strings( $translated_text, $text, $domain ) {
-    switch ( $translated_text ) {
-        case 'Cart' :
-            $translated_text = 'Kundvagn';
-            break;
-        case 'Checkout' :
-            $translated_text = 'Kassan';
-            break;
-    }
-    return $translated_text;
-}
-
-add_filter( 'gettext', 'custom_woocommerce_text_strings', 20, 3 );
-
 
