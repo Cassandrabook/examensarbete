@@ -1,8 +1,9 @@
 <?php
-require_once('path/till/api-keys.php');
-require 'vendor/autoload.php'; // Sökvägen till autoload.php kan variera beroende på din installation
+require_once 'api-keys.php';
+require 'vendor/autoload.php';
 
 use Automattic\WooCommerce\Client;
+use Automattic\WooCommerce\HttpClient\OAuth\OAuth1;
 
 $woocommerce = new Client(
     'http://localhost/examensarbete/wordpress/', 
@@ -11,11 +12,12 @@ $woocommerce = new Client(
     [
         'wp_api' => true,
         'version' => 'wc/v3',
+        'query_string_auth' => true, // Använd OAuth 1.0-autentisering
     ]
 );
 
-// Exempel på att hämta produkter från WooCommerce
+// Hämta alla produkter
 $products = $woocommerce->get('products');
 
-// Gör något med $products, t.ex. skriv ut dem
+// Skriv ut produkterna
 print_r($products);
