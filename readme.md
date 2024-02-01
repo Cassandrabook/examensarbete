@@ -24,8 +24,8 @@ För att använda Google-inloggning, skapa en [Google API-nyckel] "console.devel
 För att testa och använda API-kommunikation med Postman, använd följande detaljer:
 
 - **Sakpa nycklar** Skapa och hämta API-nycklar från WooCommerce.
-- **Autentisering:** Lägga in nycklarna under OAuth 1.0
-- **Base URL:** [API-base-URL]
+- **Autentisering:** Lägga in nycklarna under OAuth 1.0 i Postman
+- **Base URL:** [API-base-URL], exempel http://localhost/examensarbete/wordpress/wp-json/wc/v3/products/
 - **WooCommerce API dokumentaion** https://woocommerce.github.io/woocommerce-rest-api-docs/?shell#
 
 ## Begränsningar
